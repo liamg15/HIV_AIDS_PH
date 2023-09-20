@@ -1,0 +1,1577 @@
+City,Country,Age,Sex,Diagnosis year,Risk Group,State of Clinical Infection,Viral subtype,Sexual orientation
+LEON,ESPANA,32,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,32,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+AVILA,ESPANA,38,M,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,40,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,47,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,GUINEA ECUATORIAL,37,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,CAMERUN,45,M,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+ZAMORA,ESPANA,45,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,44,M,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+BURGOS,ESPANA,41,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,47,H,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,COLOMBIA,41,M,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SEGOVIA,ARMENIA,27,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,SUIZA,38,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,BRASIL,32,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,46,M,2009,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+LEON,ESPANA,66,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,45,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,63,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,41,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,31,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,26,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,23,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,50,H,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,38,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,26,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,57,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,39,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,58,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,37,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,23,H,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,34,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,51,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,34,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SORIA,ESPANA,35,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SEGOVIA,ESPANA,47,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,39,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,COLOMBIA,23,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,50,H,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SORIA,MAURITANIA,38,H,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SORIA,PERU,27,M,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,44,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,39,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+LEON,ESPANA,35,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,MOZAMBIQUE,30,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,33,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,PORTUGAL,37,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,39,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,48,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,27,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,36,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,40,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,29,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,28,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,51,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,44,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,71,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,63,H,2009,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+AVILA,CHILE,37,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,AUSTRALIA,40,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+AVILA,ESPANA,78,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,75,M,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,32,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,25,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+VALLADOLID,ECUADOR,37,M,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,50,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,38,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+ZAMORA,ESPANA,20,M,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,MARRUECOS,50,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,26,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,53,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,RUMANIA,32,H,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,36,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SORIA,CUBA,41,M,2009,Receptor trasfusiones,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+SALAMANCA,ESPANA,32,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,36,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,57,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,50,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,50,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,43,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,52,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,45,H,2009,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+BURGOS,ESPANA,25,H,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,ESPANA,39,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,43,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,46,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,35,H,2009,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,30,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,CUBA,27,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,22,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ARGENTINA,64,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,51,H,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,ESPANA,49,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+BURGOS,DOMINICANA (REPUBL.),41,M,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,18,H,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+AVILA,CHILE,36,H,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SORIA,ESPANA,44,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,21,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,ESPANA,31,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,33,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,32,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ECUADOR,24,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,33,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,41,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,GUINEA ECUATORIAL,37,M,2009,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ECUADOR,36,M,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,BRASIL,24,H,2009,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,28,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,34,H,2009,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,48,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,46,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,32,H,2009,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SEGOVIA,ESPANA,29,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,32,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,39,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,56,H,2009,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+PALENCIA,ESPANA,45,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,42,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,45,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,RUMANIA,21,M,2009,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+LEON,CUBA,33,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,BULGARIA,43,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,33,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ECUADOR,28,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,50,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,42,M,2009,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,26,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,36,M,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,44,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,50,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,56,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,33,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,32,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,45,H,2009,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,24,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,27,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,48,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,BRASIL,28,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,ESPANA,50,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,57,M,2009,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+LEON,ESPANA,39,H,2009,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,41,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,36,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,41,H,2009,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,56,H,2009,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,52,H,2009,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+ZAMORA,ESPANA,65,M,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,VENEZUELA,20,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,50,H,2009,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+LEON,RUMANIA,25,H,2009,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,40,H,2009,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,59,H,2009,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,55,H,2009,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+VALLADOLID,VENEZUELA,46,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,56,H,2009,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,57,H,2009,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,32,H,2009,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,57,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SEGOVIA,TOGO,38,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,46,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,30,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,CABO VERDE,41,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,31,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,39,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,53,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SORIA,MALI,38,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,RUMANIA,27,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,44,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,26,H,2010,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,46,M,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,36,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+ZAMORA,ESPANA,48,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,50,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ECUADOR,50,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,27,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,37,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,20,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,31,H,2010,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,50,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,55,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,VENEZUELA,21,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,46,H,2010,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,30,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,49,M,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+AVILA,ESPANA,62,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,VENEZUELA,37,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,26,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,28,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,BRASIL,44,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2010,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,45,M,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,FILIPINAS,32,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,47,M,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,44,M,2010,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,48,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,40,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,37,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,39,H,2010,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+AVILA,ESPANA,26,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,PERU,28,H,2010,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+SORIA,GHANA,36,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,32,M,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,GHANA,40,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+PALENCIA,ESPANA,31,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+BURGOS,ECUADOR,39,M,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,28,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+ZAMORA,ESPANA,35,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,47,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,56,M,2010,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,42,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,54,H,2010,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+SALAMANCA,ESPANA,39,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,41,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,39,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,54,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,21,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,BRASIL,30,M,2010,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+AVILA,ESPANA,24,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,36,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,51,H,2010,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+LEON,ESPANA,21,M,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,41,H,2010,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+LEON,ESPANA,41,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,COLOMBIA,41,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,35,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,52,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,33,M,2010,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+PALENCIA,ARGENTINA,38,H,2010,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,37,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+LEON,DOMINICANA (REPUBL.),38,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,40,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,33,H,2010,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+ZAMORA,ESPANA,45,H,2010,Personas que se inyectan drogas / Varones homo/bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,BULGARIA,41,H,2010,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+AVILA,ESPANA,58,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,DOMINICANA (REPUBL.),40,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,PORTUGAL,29,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,BRASIL,29,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,57,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,GUINEA ECUATORIAL,29,M,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,35,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,41,H,2010,Personas que se inyectan drogas,Asintom,VIH2,Desconocido
+VALLADOLID,ESPANA,51,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,RUMANIA,28,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,BRASIL,38,M,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,BULGARIA,24,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,37,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,58,H,2010,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,34,H,2010,Personas que se inyectan drogas,SIDA,VIH12,Desconocido
+VALLADOLID,ESPANA,49,H,2010,Personas que se inyectan drogas,PrimoInf,VIH1,Hetersex
+SEGOVIA,DOMINICANA (REPUBL.),37,H,2010,Varones homosexuales / bisexuales,Asintom,VIH2,Homosex
+SEGOVIA,ESPANA,40,H,2010,Personas que se inyectan drogas / Varones homo/bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,38,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,32,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ECUADOR,37,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,29,M,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SEGOVIA,ESPANA,40,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,PERU,32,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,43,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,42,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,48,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,29,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ECUADOR,7,M,2010,Hijo de madre a riesgo,Asintom,VIH1,Hetersex
+ZAMORA,NICARAGUA,29,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+PALENCIA,ESPANA,38,M,2010,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,19,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,RUMANIA,42,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,28,H,2010,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,36,H,2010,Personas que se inyectan drogas,Asintom,VIH12,Desconocido
+ZAMORA,ESPANA,23,H,2010,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+AVILA,COLOMBIA,49,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,71,H,2010,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,39,H,2010,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+SALAMANCA,ESPANA,38,H,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,44,M,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,60,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,DOMINICANA (REPUBL.),25,M,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,36,H,2010,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,31,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,32,H,2010,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,0,H,2010,Hijo de madre a riesgo,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,43,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,59,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,VENEZUELA,32,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,43,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,39,H,2010,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,46,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,31,H,2010,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2010,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,53,M,2010,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,67,H,2010,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,49,M,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,COLOMBIA,54,M,2010,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+LEON,ESPANA,47,H,2010,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,59,H,2010,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,33,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,28,H,2010,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,53,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,53,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SORIA,GAMBIA,21,H,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,ESPANA,43,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,38,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,33,H,2011,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+PALENCIA,ESPANA,62,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+PALENCIA,ESPANA,30,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,62,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ECUADOR,44,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,44,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,23,H,2011,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+VALLADOLID,ESPANA,37,H,2011,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+PALENCIA,GUINEA,51,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,25,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,31,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,32,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,50,H,2011,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+SALAMANCA,ESPANA,52,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,51,H,2011,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SALAMANCA,PAISES BAJOS,31,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,46,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,51,H,2011,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,FRANCIA,54,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,CUBA,27,H,2011,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+SORIA,VENEZUELA,46,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,31,H,2011,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+LEON,ESPANA,46,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,51,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,39,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,29,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+VALLADOLID,ESPANA,25,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,47,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,34,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+SALAMANCA,ESPANA,33,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,37,H,2011,Personas que se inyectan drogas / Varones homo/bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,23,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,33,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,31,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,20,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,51,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,28,H,2011,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,50,H,2011,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,46,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+VALLADOLID,ESPANA,40,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,25,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,22,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,37,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,39,M,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,31,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,DOMINICANA (REPUBL.),50,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2011,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+PALENCIA,ESPANA,31,H,2011,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,33,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,43,M,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,46,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,26,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,49,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+ZAMORA,ESPANA,27,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,33,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,33,M,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,38,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,45,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,55,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,57,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,35,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,42,H,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,37,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+AVILA,ESPANA,22,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,62,H,2011,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+SALAMANCA,ESPANA,34,H,2011,Personas que se inyectan drogas,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,27,H,2011,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,35,M,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,49,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,44,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,38,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+VALLADOLID,DOMINICANA (REPUBL.),33,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,VENEZUELA,35,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,31,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,24,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,28,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,26,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,41,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,52,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,BRASIL,28,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,DOMINICANA (REPUBL.),29,H,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,56,H,2011,Grupo de riesgo desconocido,SintNoSIDA,VIH12,Desconocido
+PALENCIA,ESPANA,44,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,21,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+BURGOS,ESPANA,43,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,49,H,2011,Grupo de riesgo desconocido,SintNoSIDA,VIH12,Desconocido
+BURGOS,ESPANA,45,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,34,H,2011,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+LEON,ESPANA,44,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,RUMANIA,27,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ECUADOR,39,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,BRASIL,31,M,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,30,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,41,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,COLOMBIA,67,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,39,H,2011,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,46,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,BRASIL,29,H,2011,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,51,H,2011,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,30,M,2011,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+SALAMANCA,ESPANA,48,H,2011,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,46,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,BRASIL,26,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,37,H,2011,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+ZAMORA,ESPANA,35,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,41,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,25,H,2011,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,34,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,40,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,32,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,43,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,ESPANA,24,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,49,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,61,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,51,M,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,25,H,2011,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,PANAMA,28,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,49,H,2011,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,42,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,53,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+AVILA,ESPANA,52,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,54,M,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,41,H,2011,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+BURGOS,GUINEA ECUATORIAL,23,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,30,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,41,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,37,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,31,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,BRASIL,30,H,2011,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,BULGARIA,22,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,28,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,BULGARIA,36,H,2011,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,62,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,33,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,38,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,24,H,2011,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,34,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,45,H,2011,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,31,M,2011,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,30,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,21,H,2011,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,VENEZUELA,39,H,2011,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,52,H,2011,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,23,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,41,H,2011,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,43,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,24,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,34,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,36,H,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,GUINEA,31,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,23,H,2011,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ECUADOR,19,M,2011,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,PORTUGAL,34,H,2011,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,45,H,2011,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,52,H,2011,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+SORIA,COLOMBIA,51,M,2011,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2011,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,36,H,2011,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,42,H,2011,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SORIA,ESPANA,52,M,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,33,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,DOMINICANA (REPUBL.),34,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,25,H,2012,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,COLOMBIA,35,M,2012,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,19,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,BOLIVIA,35,H,2012,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,52,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,37,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,28,M,2012,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,22,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,39,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+AVILA,ESPANA,16,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SEGOVIA,COLOMBIA,40,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,38,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,25,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+SALAMANCA,ESPANA,48,H,2012,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SEGOVIA,COLOMBIA,50,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,37,H,2012,Personas que se inyectan drogas,SIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,29,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,34,H,2012,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+PALENCIA,BULGARIA,33,M,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,33,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,51,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,GHANA,39,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+SALAMANCA,ESPANA,26,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,38,M,2012,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,48,H,2012,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+LEON,ESPANA,37,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,37,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,45,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,37,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,51,M,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,39,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,RUMANIA,33,M,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,61,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SEGOVIA,RUMANIA,23,M,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,58,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,42,M,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,26,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,43,H,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,73,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,38,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,54,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,49,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,44,M,2012,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,25,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,53,H,2012,Grupo de riesgo desconocido,SIDA,VIH2,Desconocido
+VALLADOLID,ESPANA,24,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,43,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,32,H,2012,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,57,M,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,ESPANA,42,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+SEGOVIA,ESPANA,35,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,20,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,46,H,2012,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+AVILA,ESPANA,41,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,39,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,COLOMBIA,42,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,52,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,45,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,65,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,24,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,39,H,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+SALAMANCA,ESPANA,27,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,51,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,63,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,27,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,45,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,29,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,61,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,57,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,53,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,68,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,64,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,42,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,28,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,PORTUGAL,32,M,2012,Relaciones Heterosexuales,Asintom,VIH2,Hetersex
+BURGOS,ESPANA,20,H,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,33,H,2012,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,PAKISTAN,37,H,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,50,H,2012,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,61,H,2012,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,45,H,2012,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,46,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,44,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,26,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,39,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,30,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,30,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,28,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,DOMINICANA (REPUBL.),25,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,49,H,2012,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,32,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,38,M,2012,Personas que se inyectan drogas,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,35,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SORIA,GUINEA ECUATORIAL,31,H,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,37,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,47,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,ESPANA,54,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,30,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SEGOVIA,GUINEA ECUATORIAL,43,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,21,H,2012,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,30,M,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2012,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,45,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+AVILA,ESPANA,33,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,SUIZA,38,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,36,H,2012,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,58,M,2012,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,37,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,RUMANIA,27,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,26,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,37,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,SUIZA,25,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,38,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,16,H,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,30,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,CUBA,31,H,2012,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,29,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,33,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,70,M,2012,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,31,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,35,H,2012,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,40,H,2012,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,18,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,45,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,60,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,34,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,25,H,2012,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,PORTUGAL,50,H,2012,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,35,H,2012,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,45,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,BRASIL,43,M,2012,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,31,H,2012,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,51,H,2012,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,28,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,44,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,42,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+ZAMORA,ESPANA,51,H,2013,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+SORIA,CAMERUN,40,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,57,M,2013,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,38,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,MARRUECOS,40,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ECUADOR,36,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,34,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,47,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,38,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+PALENCIA,ESPANA,20,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,54,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,58,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,51,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+PALENCIA,MOZAMBIQUE,36,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,21,H,2013,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,43,H,2013,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,23,H,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,34,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,BRASIL,33,M,2013,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,35,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,44,M,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,28,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,GUINEA ECUATORIAL,48,M,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,34,M,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,22,M,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,25,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,BRASIL,47,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,30,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,54,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ECUADOR,31,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,1,H,2013,Hijo de madre a riesgo,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,22,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,27,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,40,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SORIA,ESPANA,55,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,41,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,31,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,50,H,2013,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,VENEZUELA,30,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,44,M,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,MEJICO,24,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,DOMINICANA (REPUBL.),35,H,2013,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,RUMANIA,34,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,35,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,32,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,38,H,2013,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+PALENCIA,ECUADOR,37,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,PARAGUAY,23,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,45,H,2013,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+LEON,ESPANA,28,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,24,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,36,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+PALENCIA,ESPANA,41,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,26,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,23,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2013,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,26,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,38,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,41,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,29,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+SALAMANCA,ESPANA,54,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,52,H,2013,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+ZAMORA,DOMINICANA (REPUBL.),46,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,32,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,49,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,20,H,2013,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SORIA,ESPANA,32,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,22,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+ZAMORA,ESPANA,48,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,29,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,19,H,2013,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,24,M,2013,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,ESPANA,29,M,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,34,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,27,H,2013,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,41,H,2013,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,36,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,40,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,18,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,31,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,28,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,33,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,32,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,54,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,33,H,2013,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,33,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,33,H,2013,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,28,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,COLOMBIA,62,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,35,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,39,H,2013,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,29,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,41,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,54,H,2013,Personas que se inyectan drogas,SIDA,VIH1,Desconocido
+SALAMANCA,ESPANA,76,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,TAILANDIA,43,M,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+PALENCIA,ESPANA,56,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,47,H,2013,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SALAMANCA,ESPANA,36,H,2013,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,52,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,29,H,2013,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,56,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,50,M,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,DOMINICANA (REPUBL.),28,M,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,33,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,BRASIL,42,H,2013,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,31,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,GUINEA ECUATORIAL,63,H,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,GUINEA ECUATORIAL,52,M,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,35,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,39,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,RUMANIA,45,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,46,H,2013,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ECUADOR,34,H,2013,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,33,M,2013,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,45,H,2013,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,31,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Hetersex
+BURGOS,GHANA,42,M,2013,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+VALLADOLID,ESPANA,43,H,2013,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,18,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,GHANA,30,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,DOMINICANA (REPUBL.),42,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,47,M,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,44,H,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,67,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,56,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,32,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+PALENCIA,ESPANA,61,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,21,H,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,42,H,2014,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,51,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,32,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,53,H,2014,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,41,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,59,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,42,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,BOLIVIA,57,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,27,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,44,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,43,H,2014,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,37,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,33,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,22,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,50,H,2014,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+BURGOS,ESPANA,50,H,2014,Personas que se inyectan drogas,Asintom,VIH12,Hetersex
+LEON,ESPANA,44,H,2014,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,38,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,45,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,58,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,ESPANA,41,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,44,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,23,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2014,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+LEON,ESPANA,49,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,52,M,2014,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,44,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,NICARAGUA,28,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,40,M,2014,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,34,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,42,M,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SORIA,ESPANA,39,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ECUADOR,30,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,44,H,2014,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,BRASIL,45,M,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SORIA,ESPANA,30,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,37,M,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,50,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,53,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,28,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,PORTUGAL,29,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2014,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,39,M,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+ZAMORA,ESPANA,73,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,64,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,PORTUGAL,25,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+ZAMORA,ESPANA,43,H,2014,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+SALAMANCA,ESPANA,29,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,32,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,46,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+BURGOS,ESPANA,35,H,2014,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,38,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+SORIA,ESPANA,27,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,32,H,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+AVILA,ESPANA,41,M,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+PALENCIA,ESPANA,34,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,46,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,53,H,2014,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+LEON,PORTUGAL,35,H,2014,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+SEGOVIA,RUMANIA,33,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,22,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,45,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,PORTUGAL,28,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,45,H,2014,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,47,H,2014,Personas que se inyectan drogas / Varones homo/bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,34,H,2014,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+LEON,ESPANA,28,H,2014,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,46,H,2014,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,35,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,40,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+PALENCIA,ESPANA,51,H,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,41,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+ZAMORA,ESPANA,34,H,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+PALENCIA,ESPANA,57,M,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,RUSIA,42,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,22,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,51,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,35,H,2014,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,46,H,2014,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,28,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,34,H,2014,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,43,M,2014,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,27,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,42,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,48,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,66,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,PERU,30,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,ESPANA,54,H,2014,Personas que se inyectan drogas / Varones homo/bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,39,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,41,M,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,41,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,40,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,41,M,2014,Relaciones Heterosexuales,SintNoSIDA,VIH12,Hetersex
+BURGOS,ESPANA,35,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,46,H,2014,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,39,H,2014,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,44,H,2014,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+PALENCIA,ESPANA,34,M,2014,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,33,M,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,47,M,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,36,H,2014,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,34,H,2014,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,62,H,2014,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,NIGERIA,43,H,2014,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,45,H,2014,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,51,H,2014,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,34,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,38,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,39,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,59,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,26,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,68,H,2015,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+SALAMANCA,ESPANA,21,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,25,H,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SEGOVIA,ESPANA,23,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,27,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,23,M,2015,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,22,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,32,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SORIA,ESPANA,31,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,PERU,24,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,26,M,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,46,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,28,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,36,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,BULGARIA,46,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,40,H,2015,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,ESPANA,41,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,69,M,2015,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,66,H,2015,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+BURGOS,ESPANA,10,M,2015,Hijo de madre a riesgo,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,54,M,2015,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+SALAMANCA,ESPANA,47,H,2015,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,66,M,2015,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,26,M,2015,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+SORIA,ESPANA,57,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,70,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,25,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,25,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,30,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,29,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,31,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,50,H,2015,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+LEON,CAMERUN,35,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,64,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,48,H,2015,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,26,H,2015,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,41,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SORIA,ESPANA,59,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,43,H,2015,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,51,H,2015,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,27,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SEGOVIA,ESPANA,31,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SORIA,ESPANA,43,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,28,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,37,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,ESPANA,51,H,2015,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,43,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SORIA,ESPANA,38,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,34,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,53,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,25,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,38,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,VENEZUELA,27,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,55,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,29,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,49,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,50,H,2015,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ECUADOR,22,H,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,26,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,37,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,33,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,MARRUECOS,44,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,45,H,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,62,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,23,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,67,H,2015,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,56,H,2015,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,22,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,BRASIL,36,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SEGOVIA,ESPANA,45,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,31,H,2015,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,26,H,2015,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,30,H,2015,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,27,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,60,H,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,BRASIL,36,H,2015,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,DOMINICANA (REPUBL.),26,M,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,27,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,28,M,2015,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,38,H,2015,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,53,H,2015,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,BENIN,22,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,30,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,51,M,2015,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,52,H,2015,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+ZAMORA,CHINA,24,H,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,26,M,2015,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+VALLADOLID,ESPANA,51,H,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,40,M,2015,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,53,M,2015,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,32,H,2015,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,22,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,34,H,2016,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+PALENCIA,ESPANA,27,H,2016,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,BULGARIA,43,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,40,H,2016,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,36,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,54,H,2016,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,24,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,23,H,2016,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SORIA,ESPANA,43,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,38,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,COLOMBIA,43,H,2016,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,53,H,2016,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+SORIA,VENEZUELA,25,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,36,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,46,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,36,M,2016,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+VALLADOLID,MARRUECOS,37,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,43,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,67,M,2016,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+ZAMORA,ESPANA,32,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,44,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,29,H,2016,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+BURGOS,GUINEA ECUATORIAL,60,M,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,26,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,43,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,43,H,2016,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,ESPANA,33,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,20,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,57,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,36,H,2016,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,33,H,2016,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+AVILA,ESPANA,53,H,2016,Personas que se inyectan drogas,SIDA,VIH12,Hetersex
+AVILA,ESPANA,37,M,2016,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,46,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,36,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,49,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,63,H,2016,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,40,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,MARRUECOS,39,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,51,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,MARRUECOS,65,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,COLOMBIA,47,H,2016,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,52,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,56,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,DOMINICANA (REPUBL.),15,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,40,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,34,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,60,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,47,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,23,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,42,H,2016,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+AVILA,ESPANA,29,H,2016,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,50,H,2016,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,32,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,COLOMBIA,51,H,2016,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+LEON,ESPANA,27,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,33,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,COLOMBIA,27,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,46,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,32,M,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,35,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,59,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,66,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,54,H,2016,Personas que se inyectan drogas,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,49,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,52,H,2016,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2016,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,ESPANA,53,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,64,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,39,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,33,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,52,M,2016,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SALAMANCA,BOLIVIA,20,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,27,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,51,H,2016,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,46,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,30,M,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,37,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,32,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,49,H,2016,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+SALAMANCA,ESPANA,37,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,40,M,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,49,H,2016,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,26,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,37,H,2016,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,ESPANA,48,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,30,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,35,H,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,44,H,2016,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+ZAMORA,ESPANA,52,M,2016,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,ESPANA,38,H,2016,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,46,H,2016,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+VALLADOLID,ESPANA,38,H,2016,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,33,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,44,H,2016,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,46,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,PORTUGAL,41,H,2017,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,29,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,44,M,2017,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+SALAMANCA,ESPANA,19,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,BULGARIA,43,H,2017,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,COLOMBIA,27,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,46,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,COLOMBIA,73,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,CHINA,24,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,33,H,2017,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,36,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,29,H,2017,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+BURGOS,ESPANA,29,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,30,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,38,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,63,H,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,COLOMBIA,24,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,27,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,HONDURAS,31,H,2017,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,35,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,70,M,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+PALENCIA,ESPANA,29,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,39,M,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,24,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,TOGO,39,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,24,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,VENEZUELA,50,M,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ECUADOR,40,H,2017,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SALAMANCA,ESPANA,65,M,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,64,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,COLOMBIA,24,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,38,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,30,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,48,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,46,M,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,ESPANA,46,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ARGENTINA,42,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,49,H,2017,Personas que se inyectan drogas,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,36,H,2017,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+PALENCIA,ESPANA,58,H,2017,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,MARRUECOS,59,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,34,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,HONDURAS,35,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,24,H,2017,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,40,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,28,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,UCRANIA,37,H,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2017,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,27,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,45,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,42,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,35,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,35,H,2017,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,ESPANA,35,H,2017,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+BURGOS,ESPANA,45,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,42,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,52,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,20,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,NIGERIA,36,M,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,36,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,25,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,RUMANIA,28,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,BRASIL,29,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,38,M,2017,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,GUINEA ECUATORIAL,27,M,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,21,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,GUINEA,24,M,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,64,H,2017,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,ESPANA,47,H,2017,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,42,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,50,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,24,H,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SORIA,ESPANA,19,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,38,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,41,H,2017,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+LEON,ESPANA,24,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,62,H,2017,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,43,H,2017,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+BURGOS,ESPANA,25,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,44,H,2017,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,27,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,58,H,2017,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+SALAMANCA,ESPANA,23,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,42,H,2017,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,51,H,2017,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,30,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,31,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,54,H,2017,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,26,H,2017,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,ESPANA,60,H,2017,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+VALLADOLID,ESPANA,47,H,2017,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,43,H,2017,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,COLOMBIA,31,H,2017,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,38,M,2018,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+SALAMANCA,ESPANA,22,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,28,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SALAMANCA,ESPANA,57,M,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,31,M,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,27,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,53,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,61,M,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,ESPANA,34,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,28,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,39,H,2018,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+AVILA,ESPANA,47,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,42,H,2018,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+AVILA,VENEZUELA,45,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,60,M,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,BOLIVIA,60,M,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,35,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,35,H,2018,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,29,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,54,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,DOMINICANA (REPUBL.),59,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,BOLIVIA,34,M,2018,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+SORIA,VENEZUELA,32,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,38,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,25,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,52,H,2018,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+BURGOS,ESPANA,35,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,34,H,2018,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SEGOVIA,ESPANA,52,H,2018,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,NICARAGUA,32,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,31,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2018,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+LEON,ESPANA,28,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,29,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SALAMANCA,ESPANA,35,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,3,M,2018,Hijo de madre a riesgo,PrimoInf,VIH1,Hetersex
+SEGOVIA,ESPANA,21,M,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,44,H,2018,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,SUIZA,48,H,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,VENEZUELA,39,M,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,33,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,29,M,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,36,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,BRASIL,33,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,36,H,2018,Personas que se inyectan drogas,Asintom,VIH12,Hetersex
+BURGOS,JAMAICA,19,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,HONDURAS,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,49,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,35,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,26,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SORIA,ESPANA,32,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,21,H,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,COLOMBIA,30,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,30,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SORIA,ESPANA,43,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,29,H,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+BURGOS,COLOMBIA,22,H,2018,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+AVILA,ESPANA,27,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,22,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,DOMINICANA (REPUBL.),22,M,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,45,H,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,34,H,2018,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+SALAMANCA,ESPANA,25,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,30,H,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,45,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,53,H,2018,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,34,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,33,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,37,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,BULGARIA,43,H,2018,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,34,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,32,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,50,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,VENEZUELA,33,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,VENEZUELA,30,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+ZAMORA,ESPANA,36,H,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,39,H,2018,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+LEON,PORTUGAL,51,M,2018,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ECUADOR,27,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,ESPANA,48,H,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,JAMAICA,42,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+AVILA,ESPANA,56,M,2018,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,VENEZUELA,35,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,40,M,2018,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,20,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,32,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,42,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,22,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,51,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,38,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,52,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,23,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+AVILA,COLOMBIA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,29,H,2018,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+AVILA,ESPANA,29,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,33,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,GHANA,48,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,ESPANA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,39,H,2018,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,30,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,42,H,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,62,H,2018,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,ESPANA,32,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,35,H,2018,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+BURGOS,ESPANA,41,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,23,H,2018,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SALAMANCA,ESPANA,32,H,2018,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,34,H,2018,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,35,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,61,H,2018,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,DOMINICANA (REPUBL.),28,H,2018,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,26,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,25,H,2019,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,50,M,2019,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,51,H,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,ESPANA,22,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,26,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,33,H,2019,Personas que se inyectan drogas,PrimoInf,VIH1,Desconocido
+SEGOVIA,HONDURAS,57,M,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,24,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,40,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,29,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,39,H,2019,Personas que se inyectan drogas,Asintom,VIH12,Desconocido
+PALENCIA,EL SALVADOR,28,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,31,H,2019,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SEGOVIA,ESPANA,52,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,30,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,32,M,2019,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+AVILA,ESPANA,28,H,2019,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+SALAMANCA,ESPANA,26,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,29,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,67,H,2019,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,47,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,COLOMBIA,24,H,2019,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,41,M,2019,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,53,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,48,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,48,H,2019,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,24,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,48,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,56,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,23,M,2019,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,VENEZUELA,25,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,46,H,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+AVILA,DOMINICANA (REPUBL.),23,M,2019,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+ZAMORA,ESPANA,59,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,44,H,2019,Personas que se inyectan drogas,SintNoSIDA,VIH1,Desconocido
+LEON,ESPANA,39,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,23,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,ESPANA,56,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,58,M,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,23,H,2019,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,50,H,2019,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,27,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SALAMANCA,ESPANA,27,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,53,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,40,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,COLOMBIA,24,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,45,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,36,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,55,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,39,M,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,54,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,45,H,2019,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+VALLADOLID,ESPANA,38,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,35,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,22,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,31,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,COLOMBIA,25,H,2019,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+PALENCIA,ESPANA,40,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,26,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,54,H,2019,Personas que se inyectan drogas,Asintom,VIH1,Hetersex
+SORIA,ESPANA,40,H,2019,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,47,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,31,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,23,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,49,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+VALLADOLID,ESPANA,42,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,28,H,2019,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,41,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,59,H,2019,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+SEGOVIA,ESPANA,47,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,42,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,49,M,2019,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,39,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+AVILA,ESPANA,27,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,54,H,2019,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,41,H,2019,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,40,M,2019,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,31,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,28,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,BRASIL,28,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,48,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SEGOVIA,VENEZUELA,31,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,31,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,64,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,49,H,2019,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SORIA,COLOMBIA,39,H,2019,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,43,H,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,COSTA RICA,22,M,2019,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,23,H,2019,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,26,H,2019,Varones homosexuales / bisexuales,Asintom,VIH2,Homosex
+ZAMORA,ESPANA,23,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,30,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,VENEZUELA,38,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,33,M,2020,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+VALLADOLID,ESPANA,43,H,2020,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,CUBA,30,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,SENEGAL,53,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+BURGOS,ESPANA,42,H,2020,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+BURGOS,BRASIL,44,M,2020,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+ZAMORA,COLOMBIA,32,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,27,H,2020,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+VALLADOLID,ESPANA,44,H,2020,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido
+SEGOVIA,ESPANA,20,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,51,H,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,PARAGUAY,30,M,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,46,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,COLOMBIA,36,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ANGOLA,45,H,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+AVILA,ARGENTINA,25,H,2020,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+LEON,VENEZUELA,33,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,22,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,RUMANIA,22,H,2020,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,BRASIL,43,M,2020,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,20,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,22,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,DOMINICANA (REPUBL.),43,M,2020,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+BURGOS,ESPANA,51,H,2020,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+PALENCIA,ESPANA,21,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,25,H,2020,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SEGOVIA,ESPANA,51,H,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,ESPANA,40,H,2020,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,58,M,2020,Personas que se inyectan drogas,SIDA,VIH1,Hetersex
+VALLADOLID,MARRUECOS,29,M,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+ZAMORA,ESPANA,36,H,2020,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SEGOVIA,ESPANA,45,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,30,H,2020,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+SALAMANCA,ESPANA,50,H,2020,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,31,H,2020,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+BURGOS,ECUADOR,46,H,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,39,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,30,H,2020,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ARGENTINA,27,H,2020,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,51,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,28,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,VENEZUELA,32,H,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,26,H,2020,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+PALENCIA,BRASIL,24,M,2020,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+LEON,ESPANA,54,H,2020,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+LEON,ESPANA,34,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+LEON,COLOMBIA,33,M,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,21,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,44,M,2020,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SORIA,ESPANA,35,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,62,H,2020,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,28,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,27,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,20,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,72,H,2020,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,48,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,46,H,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,26,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,VENEZUELA,27,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,46,H,2020,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,CUBA,39,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+VALLADOLID,ESPANA,31,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,43,H,2020,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+LEON,ESPANA,43,H,2020,Relaciones Heterosexuales,SIDA,VIH12,Hetersex
+LEON,ESPANA,52,M,2020,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,51,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,CHILE,39,H,2020,Varones homosexuales / bisexuales,SIDA,VIH12,Homosex
+ZAMORA,ESPANA,30,H,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SEGOVIA,BULGARIA,29,H,2020,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,CUBA,29,H,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,45,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,34,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+PALENCIA,ESPANA,24,M,2020,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,37,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,CUBA,29,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,ESPANA,20,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,29,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,44,H,2020,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+PALENCIA,ESPANA,32,H,2020,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,COLOMBIA,20,H,2020,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,30,H,2020,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,26,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,29,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+ZAMORA,ESPANA,31,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+ZAMORA,ESPANA,20,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SEGOVIA,ESPANA,41,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,27,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SEGOVIA,HONDURAS,24,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,26,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,35,H,2021,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,16,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,ESPANA,60,H,2021,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,ESPANA,61,H,2021,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+PALENCIA,ESPANA,28,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SALAMANCA,ESPANA,60,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,38,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ECUADOR,42,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SEGOVIA,SENEGAL,34,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,31,H,2021,Relaciones Heterosexuales,Asintom,VIH2,Hetersex
+AVILA,ESPANA,51,H,2021,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+BURGOS,ESPANA,49,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,ESPANA,37,H,2021,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+BURGOS,ESPANA,32,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,31,H,2021,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,57,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,KAZAKSTAN,38,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,36,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,51,H,2021,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,55,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,22,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,28,H,2021,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+BURGOS,BRASIL,32,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+BURGOS,DOMINICANA (REPUBL.),30,H,2021,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,ESPANA,27,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,35,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,VENEZUELA,22,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,24,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,26,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+BURGOS,ESPANA,51,H,2021,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+VALLADOLID,ESPANA,39,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,46,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,42,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+SALAMANCA,SENEGAL,52,M,2021,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+LEON,ESPANA,18,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,49,H,2021,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+LEON,ESPANA,34,M,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,ESPANA,33,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,23,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SEGOVIA,ESPANA,46,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+SALAMANCA,ESPANA,44,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+SEGOVIA,ESPANA,38,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+PALENCIA,ESPANA,30,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2021,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,26,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,25,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+BURGOS,ESPANA,38,H,2021,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+BURGOS,ESPANA,48,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH12,Homosex
+VALLADOLID,ESPANA,25,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,49,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,38,M,2021,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+VALLADOLID,ESPANA,52,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,58,M,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+SORIA,ESPANA,27,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,ESPANA,40,H,2021,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,54,M,2021,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,46,H,2021,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+VALLADOLID,ESPANA,50,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+LEON,ESPANA,30,M,2021,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,PERU,34,H,2021,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+LEON,ESPANA,62,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,ESPANA,56,H,2021,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,RUMANIA,25,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+ZAMORA,ESPANA,48,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,23,M,2021,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SORIA,ESPANA,20,M,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ECUADOR,29,H,2021,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+SORIA,ESPANA,54,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+VALLADOLID,ESPANA,18,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,55,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+ZAMORA,PORTUGAL,43,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,ESPANA,51,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,28,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+LEON,COLOMBIA,37,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,37,H,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+BURGOS,ESPANA,55,M,2021,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+ZAMORA,ESPANA,23,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,37,H,2021,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+LEON,HONDURAS,24,H,2021,Relaciones Heterosexuales,SintNoSIDA,VIH1,Hetersex
+LEON,ESPANA,33,M,2021,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+LEON,ESPANA,32,H,2021,Grupo de riesgo desconocido,SIDA,VIH1,Desconocido
+LEON,ESPANA,24,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,50,H,2021,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+LEON,ESPANA,51,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+SORIA,ESPANA,47,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,PARAGUAY,32,M,2021,Relaciones Heterosexuales,PrimoInf,VIH12,Hetersex
+BURGOS,ESPANA,30,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+BURGOS,ESPANA,66,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH12,Desconocido
+BURGOS,ESPANA,43,H,2021,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+LEON,VENEZUELA,59,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,COSTA DE MARFIL,42,M,2021,Grupo de riesgo desconocido,Asintom,VIH1,Desconocido
+LEON,ESPANA,35,H,2021,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,63,H,2021,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,MARRUECOS,41,M,2021,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+SALAMANCA,BRASIL,38,H,2021,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+PALENCIA,DOMINICANA (REPUBL.),35,M,2022,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+LEON,ESPANA,32,H,2022,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+PALENCIA,ESPANA,31,H,2022,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,ESPANA,46,H,2022,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+VALLADOLID,ESPANA,37,H,2022,Relaciones Heterosexuales,Asintom,VIH1,Hetersex
+PALENCIA,UCRANIA,38,H,2022,Personas que se inyectan drogas,SIDA,VIH12,Hetersex
+LEON,COLOMBIA,30,H,2022,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+BURGOS,ESPANA,59,H,2022,Grupo de riesgo desconocido,Asintom,VIH12,Desconocido
+BURGOS,COLOMBIA,29,H,2022,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,19,H,2022,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+VALLADOLID,ESPANA,54,H,2022,Relaciones Heterosexuales,PrimoInf,VIH1,Hetersex
+VALLADOLID,ESPANA,47,H,2022,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,40,H,2022,Grupo de riesgo desconocido,PrimoInf,VIH1,Hetersex
+PALENCIA,ESPANA,31,H,2022,Relaciones Heterosexuales,Asintom,VIH12,Hetersex
+BURGOS,ESPANA,35,H,2022,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+SALAMANCA,ESPANA,55,H,2022,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,37,H,2022,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+BURGOS,VENEZUELA,23,H,2022,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+VALLADOLID,VENEZUELA,33,H,2022,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SEGOVIA,HONDURAS,47,H,2022,Varones homosexuales / bisexuales,SIDA,VIH1,Homosex
+AVILA,RUMANIA,38,H,2022,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+VALLADOLID,ESPANA,26,H,2022,Varones homosexuales / bisexuales,PrimoInf,VIH1,Homosex
+VALLADOLID,ESPANA,34,M,2022,Relaciones Heterosexuales,SIDA,VIH1,Hetersex
+VALLADOLID,ESPANA,31,H,2022,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+VALLADOLID,ESPANA,52,H,2022,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+LEON,COLOMBIA,44,H,2022,Varones homosexuales / bisexuales,PrimoInf,VIH12,Homosex
+LEON,ESPANA,26,H,2022,Varones homosexuales / bisexuales,SintNoSIDA,VIH1,Homosex
+SALAMANCA,ESPANA,24,H,2022,Grupo de riesgo desconocido,PrimoInf,VIH1,Desconocido
+BURGOS,ESPANA,28,H,2022,Varones homosexuales / bisexuales,Asintom,VIH12,Homosex
+BURGOS,ESPANA,64,H,2022,Grupo de riesgo desconocido,SIDA,VIH12,Desconocido
+SEGOVIA,ESPANA,19,H,2022,Varones homosexuales / bisexuales,Asintom,VIH1,Homosex
+AVILA,ESPANA,26,H,2022,Grupo de riesgo desconocido,SintNoSIDA,VIH1,Desconocido

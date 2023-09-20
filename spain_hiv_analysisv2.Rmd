@@ -1,0 +1,374 @@
+---
+title: "Writing sample 1 - HIV/AIDS"
+author: "Golding, L."
+date: "2023-09-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+library(tidyverse)
+library(here)
+library(ggpubr)
+library(sjPlot)
+library(patchwork)
+library(nnet)
+library(ggeffects)
+source("C:/Users/Goldi/OneDrive/Documents/Analyses/Github/themes/theme_bar.R", echo=F) # theme_bar
+source("C:/Users/Goldi/OneDrive/Documents/Analyses/Github/themes/theme_bar_90x.R", echo=F) # theme_bar_90x
+my_custom_palette <- c("#8B864E",   "#CDC673" ,  "#CDC9A5" ,  "#EEE9BF" ,  "#EBC0B0" ,  "#CC6766" ,  "#A63533F0")
+EP <- c("#66CDAA", "#CD5B45", "#EEB422", "#66CD00", "#6959CD", "#008B45", "#EE7621", "#CDC673", "#EE7AE9", "#00688B")
+```
+
+## Background
+
+Human immunodeficiency virus (HIV), the virus causing acquired immunodeficiency syndrome (AIDS), is a preventable infection that can lead to severe, life-long, and often fatal consequences in humans. The HIV virus exists in two main infectious sub-types: HIV-1 and HIV-2. The most common ways that HIV can spread is through open-wounds or cuts where blood from an infected individual transfers to into circulation of another individual usually through injection-drug users who share needles with persons with HIV, anal sex, and, in some cases, vaginal sex. To accurately allocate resources to reduce the spread of HIV, updated monitoring of the main risk groups involved in spreading HIV infections, including persons who inject drugs (PWIDs), men who have sex with men (MSM), and heterosexual individuals are necessitated. Using retrospective data on HIV infections collected by the Epidemiological Surveillance Network of Castilla y León between 2009 and 2021, the etiology of HIV cases were analyzed and the relative risk of AIDS diagnoses among each risk group were compared.
+
+## Objectives
+
+1.  To determine the distributions of age and sex of the reported HIV cases between 2009 and 2021 and identify any shifts in the probability of infection by age and sex.
+2.  To determine the probaiblity of early, asymptomatic, and AIDS infections among HIV positive cases between 2009 and 2021.
+
+## Data source
+
+Data were from the Publications Office of the European Union data repository (link: <https://data.europa.eu/en>). The data set was collected by the "New HIV Infections Register" of the Epidemiological Surveillance Network of Castilla y León (link: <https://data.europa.eu/data/datasets/https-datosabiertos-jcyl-es-web-jcyl-set-es-salud-registro-vih-1284868676866?locale=en>; retreived 2023-08-21).All downstream uses of the data are in compliance with Creative Commons Attribution 4.0 International (link: <https://creativecommons.org/licenses/by/4.0/>).
+
+## Methods/Material
+
+### Data wrangling
+
+Data were cleaned using the `dplyr::` package in R (v4.3.0), specifically character values of `Risk Group` and `State of Clinical Infection` were translated to English using Google Translate.
+
+### Inclusion criteria 
+
+Adults (\>= 18), diagnosed with HIV-1 sub-type infections, and known risk group from Spain. After applying inclusion criteria 981 cases eligible for downstream analyses.
+
+### Exclusion criteria
+
+`PWID + MSM/BISEX` was omitted from downstream analyses due to low sampling (5 samples for 2010 and 2014).
+
+### Statistical analysis
+
+Descriptive statistics were calculated for age (median age at diagnosis, quantiles) and sex (\# of cases by sex). Density plots were generated to visualize the distribution of age at diagnosis strattified by sex and diagnosis year, accompanied by bar graphs of age at diagnosis over years stratified by sex.
+
+Splined multinomial logistic regression (MLM) was used to determine the probability of HIV diagnoses by age group by years and adjusted for sex. Due to the non-linear trend over years, diagnosis year was splined with 4 degrees of freedom to achieve a better fit of the distribution without over-fitting.
+
+Splined MLM was used to determine the probabilities of disease status (early infection, asymptomatic, AIDS) by year adjusted for sex and age group.
+
+### The data
+
+```{r, message=F}
+data <- read_csv(here("registro-nuevas-infecciones-por-vih.csv")) %>% 
+  
+  # 1. Inclusion criteria
+  filter(Age >= 18 & Age < 58 &
+           `Viral subtype` == "VIH1" & 
+           `Diagnosis year` != 2022 &
+           Country == "ESPANA" & 
+           `Risk Group` != "Grupo de riesgo desconocido") %>% 
+  
+  # 2. Translating from Spanish to English
+  mutate(`Risk Group` = case_when(`Risk Group` == "Personas que se inyectan drogas" ~ "PWID", 
+                                  `Risk Group` == "Relaciones Heterosexuales" ~ "HETERO",
+                                  `Risk Group` == "Grupo de riesgo desconocido" ~ "UNKNOWN",
+                                  `Risk Group` == "Varones homosexuales / bisexuales" ~ "MSM/BISEX",
+                                  `Risk Group` == "Personas que se inyectan drogas / Varones homo/bisexuales" ~ "PWID + MSM/BISEX",
+                                  `Risk Group` == "Receptor trasfusiones" ~ "TRANSFUSION")) %>% 
+  mutate(`State of Clinical Infection` = ifelse(str_detect(`State of Clinical Infection`, "SIDA"), "AIDS",
+                                         ifelse(str_detect(`State of Clinical Infection`, "Primo"), "Early-infection",
+                                         ifelse(str_detect(`State of Clinical Infection`, "Asin"), "Asymptomatic", 
+                                                `State of Clinical Infection`)))) %>% 
+  # 3. Spanish madre and hombre to English female and male
+  mutate(Sex = ifelse(Sex == "M", "Female", "Male")) %>% 
+  mutate(age_group = case_when(Age <= 28 ~ "18-28",
+                               Age <= 38 ~ "29-38",
+                               Age <= 48 ~ "39-48",
+                               Age <= 58 ~ "49-58",
+                               Age <= 68 ~ "59-68",
+                               Age > 68 ~ "69+")) %>% 
+  mutate(age_group = factor(age_group, c("18-28","29-38","39-48","49-58","59-68","69+")))
+
+# Sample first 10
+head(data,10)
+
+# Order levels
+data$`Risk Group` <- relevel(factor(data$`Risk Group`), ref = "MSM/BISEX")
+data$`State of Clinical Infection` <- relevel(factor(data$`State of Clinical Infection`), ref = "Early-infection")
+data$Sex <- relevel(factor(data$Sex), ref = "Male")
+
+
+```
+
+## Results
+
+### Distribution of age and sex
+#### Distribution of age over years by sex
+```{r, fig.width=10}
+hist(data$Age)
+
+data %>% 
+  group_by(Sex) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1 <- data %>% 
+  group_by(`Diagnosis year`, Sex) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+data1
+
+data1.2 <- data %>% 
+  group_by(`Diagnosis year`, Sex) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.2 %>% 
+  ggplot(aes(`Diagnosis year`, median, fill = Sex, label = n)) +
+  geom_col(position = position_dodge(width = 0.9)) +
+  geom_errorbar(aes(ymin = lowerq, ymax = upperq), width = 0.2, position = position_dodge(0.9)) +
+  scale_x_continuous(breaks = c(2009:2021)) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Age (median, quantiles)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = c(0.95,0.95),
+        legend.background = element_blank(),
+        legend.title = element_blank())
+
+data1.4 <- data %>% 
+  group_by(Sex, Age, `Diagnosis year`) %>% 
+  summarise(n = n(),
+            median = median(Age))
+
+data1.4_meta <- data %>% 
+  group_by(`Diagnosis year`,Sex) %>% 
+  summarise(median = median(Age))
+
+data1.4 %>% 
+  ggplot(aes(Age, fill = Sex)) +
+  geom_density(alpha = 0.5) +
+  scale_x_continuous(n.breaks = 5) +
+  geom_vline(data = data1.4_meta, aes(xintercept = median, color = Sex), linetype = "dashed",show.legend = F) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  scale_x_continuous(limits = c(20,80)) +
+  facet_wrap(vars(`Diagnosis year`), nrow = 2, scales = "free_x") +
+  labs(y = "Density of HIV diagnoses", x = "Age") +
+  theme_bar() +
+  theme(legend.position = c(0.93,0.3),
+        legend.background = element_blank(),
+        legend.title = element_blank())
+```
+
+-   More men were diagnosed with HIV than women during 2009-2021 (836 vs 145). This remained true regardless of the year of study.
+-   Males tended to be diagnosed earlier compared to women (overall median age: 37 vs 41), however, this was highly dependent on the year of study.
+
+#### Distribution of age over years by disease state
+```{r}
+data1.2 <- data %>% 
+  group_by(`Diagnosis year`, `State of Clinical Infection`) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.2 %>% 
+  ggplot(aes(`Diagnosis year`, median, fill = `State of Clinical Infection`, label = n)) +
+  geom_col(position = position_dodge(width = 0.9)) +
+  geom_errorbar(aes(ymin = lowerq, ymax = upperq), width = 0.2, position = position_dodge(0.9)) +
+  scale_x_continuous(breaks = c(2009:2021)) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Age (median, quantiles)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+
+data1.4 <- data %>% 
+  group_by(`State of Clinical Infection`,Age, `Diagnosis year`) %>% 
+  summarise(n = n(),
+            median = median(Age))
+
+data1.4_meta <- data %>% 
+  group_by(`Diagnosis year`,`State of Clinical Infection`) %>% 
+  summarise(median = median(Age))
+
+data1.4 %>% 
+  ggplot(aes(Age, fill = `State of Clinical Infection`)) +
+  geom_density(alpha = 0.5) +
+  scale_x_continuous(n.breaks = 5) +
+  geom_vline(data = data1.4_meta, aes(xintercept = median, color = `State of Clinical Infection`), linetype = "dashed",show.legend = F) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  scale_x_continuous(limits = c(20,80)) +
+  facet_wrap(vars(`Diagnosis year`), nrow = 2, scales = "free_x") +
+  labs(y = "Density of HIV diagnoses", x = "Age") +
+  theme_bar() +
+  theme(legend.position = c(0.95,0.3),
+        legend.background = element_blank(),
+        legend.title = element_blank())
+```
+
+### Probability of HIV diagnosis by age group adjusted for sex
+
+```{r}
+mod_age <- multinom(age_group~splines::ns(`Diagnosis year`,df = 4) + Sex, data = data)
+
+pred_age <- ggpredict(mod_age, terms = c("Diagnosis year", "Sex"))
+pred_age
+
+ ggplot(pred_age, aes(x = x, y = predicted, group = group, fill = response.level)) +
+  geom_line(aes(color = group), size = 1.5, alpha = 0.3) +
+  scale_x_continuous(breaks = c(2009:2021)) +
+  labs(x = "Year", y = "Probability of HIV infection") +
+  facet_wrap(vars(response.level), nrow = 2) +
+  theme_bar() +
+  theme(axis.text.x = element_text(angle = 90),
+        legend.position = "bottom")
+
+ggpredict(mod_age)
+
+median(data$Age[data$Sex == "Male"])
+median(data$Age[data$Sex == "Female"])
+```
+
+-   Probability of infection in those aged 18-28 increased from 0.13 in 2009 to 0.34 in 2021 (2.6 fold change)
+-   Probability of infection in those aged 39-48 decreased from 0.33 in 2009 to 0.13 in 2021 (0.39 fold change)
+-   Holding diagnosis year constant, men were most likely to be diagnosed between ages 29-38 (prob = 0.34) and women were most likely to be diagnosed between ages 39-48 (prob = 0.26).
+-   The cumulative probability of HIV diagnosis above age 59 was low (probability of male diagnosis = 0.08; probability of female diagnosis = 0.12; probability of diagnosis = 0.20)
+
+### Distribution of age and sex by disease state
+
+```{r}
+hist(data$Age[data$`State of Clinical Infection` == "AIDS"])
+hist(data$Age[data$`State of Clinical Infection` == "Early-infection"])
+hist(data$Age[data$`State of Clinical Infection` == "Asymptomatic"])
+
+data %>% 
+  group_by(Sex, `State of Clinical Infection`) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1 <- data %>% 
+  group_by(`Diagnosis year`, Sex, `State of Clinical Infection`) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+data1
+
+data1.2 <- data %>% 
+  group_by(`Diagnosis year`,  `State of Clinical Infection`) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.2 %>% 
+  ggplot(aes(`Diagnosis year`, median, fill =  `State of Clinical Infection`, label = n)) +
+  geom_errorbar(aes(ymin = median, ymax = upperq), width = 0.2, position = position_dodge(0.9)) +
+  geom_col(position = position_dodge(width = 0.9),alpha = 0.5) +
+  geom_text(position = position_dodge(0.9), size = 3, vjust = 2) +
+  scale_x_continuous(breaks = c(2009:2021)) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Age (median, quantiles)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = c(0.9,0.9),
+        legend.title = element_blank())
+
+data1.4 <- data %>% 
+  group_by(Age, `Diagnosis year`, `State of Clinical Infection`) %>% 
+  summarise(n = n(),
+            median = median(Age))
+
+data1.4_meta <- data %>% 
+  group_by(`Diagnosis year`, `State of Clinical Infection`) %>% 
+  summarise(median = median(Age))
+
+data1.4 %>% 
+  ggplot(aes(Age, fill =  `State of Clinical Infection`)) +
+  geom_density(alpha = 0.5) +
+  scale_x_continuous(n.breaks = 5) +
+  geom_vline(data = data1.4_meta, aes(xintercept = median, color =  `State of Clinical Infection`), linetype = "dashed",show.legend = F) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  scale_x_continuous(limits = c(20,80)) +
+  facet_wrap(vars(`Diagnosis year`), nrow = 2, scales = "free_x") +
+  labs(y = "Density of HIV diagnoses", x = "Age") +
+  theme_bar() +
+  theme(legend.position = c(0.96,0.945),
+        legend.background = element_blank(),
+        legend.title = element_blank())
+
+```
+
+### Probability of early-infection, asymptomatic, and AIDS by age group adjusted for sex and diagnosis year in HIV-1 infected patients
+
+```{r}
+data$`State of Clinical Infection` <- factor(data$`State of Clinical Infection`, c("Early-infection", "Asymptomatic","AIDS"))
+data$Sex <- factor(data$Sex, c("Male","Female"))
+
+mod_aids <- multinom(`State of Clinical Infection`~splines::ns(`Diagnosis year`,df = 2) + Sex + age_group, Hess = T,data = data)
+
+tab_model(mod_aids)
+
+pred_aids_s <- ggpredict(mod_aids, terms = c("Sex"))
+pred_aids_d <- ggpredict(mod_aids, terms = c("Diagnosis year"))
+pred_aids_a <- ggpredict(mod_aids, terms = c("age_group"))
+
+pred_aids_sa <- ggpredict(mod_aids, terms = c("Sex","age_group"))
+pred_aids_sad <- ggpredict(mod_aids, terms = c("Diagnosis year", "age_group", "Sex"))
+
+pred_aids_s
+pred_aids_d
+pred_aids_a
+
+pred_aids_sa
+pred_aids_sad
+
+cairo_pdf("Disease_state_Sex_predMLM1.pdf",family = "Roboto", width = 7, height = 5)
+ggplot(pred_aids_sad, aes(x = x, y = predicted, group = group, fill = response.level)) +
+  geom_line(aes(color = group), size = 1.5, alpha = 0.8) +
+  scale_x_continuous(breaks = c(2009:2021)) +
+  labs(x = "Year", y = "Probability of HIV infection") +
+  facet_grid(rows = vars(facet), cols = vars(response.level)) +
+  theme_bar_90x() +
+  scale_color_manual(values = hotgold) +
+  theme(legend.position = "bottom")
+dev.off()
+```
+
+-   Males tend to have lower probability of AIDS than women (prob = 0.14 and 0.19, respectively).
+
+-   Males tend to have a slightly higher probability of detecting early infections than women (prob = 0.20 and 0.14)
+
+-   Males and females have approximately the same probability of asymptomatic infections (\~0.67)
+
+-   The probability fo AIDS diagnosis was highest in the 59-68 age group with a consistent upward trend toward this group such that 18-28 had the lowest probability (0.14)
+
+-   The probability of asymptomatic infections were highest among 18-28 year old (prob = 0.66) and was consistently high among all age groups (\~/\> 0.5) except in the 59-68 year old (prob = 0.34)
+
+-   Early infections were most likely caught in the youngest age group

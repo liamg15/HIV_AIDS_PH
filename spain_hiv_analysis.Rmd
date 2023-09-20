@@ -1,0 +1,383 @@
+---
+title: "Writing sample 1"
+author: "Golding, L."
+date: "2023-08-21"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+library(tidyverse)
+library(here)
+library(ggpubr)
+library(sjPlot)
+library(patchwork)
+library(nnet)
+source("C:/Users/Goldi/OneDrive/Desktop/GoldGraphs/code/theme_bar.R", echo=TRUE) # theme_bar
+```
+
+## Background
+
+Human immunodeficiency virus (HIV), the virus causing acquired immunodeficiency syndrome (AIDS), is a preventable infection that can lead to severe, life-long, and often fatal consequences in humans. The HIV virus exists in two main infectious sub-types: HIV-1 and HIV-2. The most common ways that HIV can spread is through open-wounds or cuts where blood from an infected individual transfers to into circulation of another individual usually through injection-drug users who share needles with persons with HIV, anal sex, and, in some cases, vaginal sex. To accurately allocate resources to reduce the spread of HIV, updated monitoring of the main risk groups involved in spreading HIV infections, including persons who inject drugs (PWIDs), men who have sex with men (MSM), and heterosexual individuals are necessitated. Using retrospective data on HIV infections collected by the Epidemiological Surveillance Network of Castilla y León between 2009 and 2022, the etiology of HIV cases were analyzed and the relative risk of AIDS diagnoses among each risk group were compared.
+
+## Objectives
+
+1.  To determine the distributions of age, sex, and risk groups of the reported HIV cases between 2009 and 2022 (restricted to this dataset) and identify any shifts in affected populations
+2.  To determine the relative risk of AIDS among HIV positive cases in each risk group between 2009 and 2022 (restricted to this dataset)
+
+## Data source
+
+Data were from the Publications Office of the European Union data repository (link: <https://data.europa.eu/en>). The data set was collected by the "New HIV Infections Register" of the Epidemiological Surveillance Network of Castilla y León (link: <https://data.europa.eu/data/datasets/https-datosabiertos-jcyl-es-web-jcyl-set-es-salud-registro-vih-1284868676866?locale=en>; retreived 2023-08-21).All downstream uses of the data are in compliance with Creative Commons Attribution 4.0 International (link: <https://creativecommons.org/licenses/by/4.0/>).
+
+## Methods/Material
+
+### Data wrangling
+
+Data were cleaned using the `dplyr::` package in R (v4.3.0), specifically character values of `Risk Group` and `State of Clinical Infection` were translated to English using Google Translate. Inclusion criteria were adults (\>= 18), diagnosed with HIV-1 sub-type infections, and known risk group from Spain. After applying inclusion criteria 981 cases eligible for downstream analyses.
+
+```{r}
+data <- read_csv(here("registro-nuevas-infecciones-por-vih.csv")) %>% 
+  
+  # 1. Inclusion criteria
+  filter(Age >= 18 & 
+           `Viral subtype` == "VIH1" & 
+           Country == "ESPANA" & 
+           `Risk Group` != "Grupo de riesgo desconocido") %>% 
+  
+  # 2. Translating from Spanish to English
+  mutate(`Risk Group` = case_when(`Risk Group` == "Personas que se inyectan drogas" ~ "PWID", 
+                                  `Risk Group` == "Relaciones Heterosexuales" ~ "HETERO",
+                                  `Risk Group` == "Grupo de riesgo desconocido" ~ "UNKNOWN",
+                                  `Risk Group` == "Varones homosexuales / bisexuales" ~ "MSM/BISEX",
+                                  `Risk Group` == "Personas que se inyectan drogas / Varones homo/bisexuales" ~ "PWID + MSM/BISEX",
+                                  `Risk Group` == "Receptor trasfusiones" ~ "TRANSFUSION")) %>% 
+  mutate(`State of Clinical Infection` = ifelse(str_detect(`State of Clinical Infection`, "SIDA"), "AIDS",
+                                         ifelse(str_detect(`State of Clinical Infection`, "Primo"), "Early-infection",
+                                         ifelse(str_detect(`State of Clinical Infection`, "Asin"), "Asymptomatic", 
+                                                `State of Clinical Infection`)))) %>% 
+  # 3. Spanish madre and hombre to English female and male
+  mutate(Sex = ifelse(Sex == "M", "Female", "Male")) %>% 
+  mutate(age_group = case_when(Age <= 28 ~ "18-28",
+                               Age <= 38 ~ "29-38",
+                               Age <= 48 ~ "39-48",
+                               Age <= 58 ~ "49-58",
+                               Age <= 68 ~ "59-68",
+                               Age <= 78 ~ "69-78"))
+
+# Sample first 10
+head(data,10)
+```
+
+#### Exclusion
+
+PWID + MSM/BISEX was omitted from downstream analyses due to low sampling (5 samples for 2010 and 2014). This is mentioned throughout the results and discussion. Sampling for PWID unfortunately reached near zero during the COVID-19 pandemic and is accounted for in the conclusions.
+
+### Statistical analysis
+
+To investigate the first objective, age, sex, and risk groups stratified and the distribution of were independently as follows.
+
+1) Age (median, 25th-75th quantile) and the distribution age among HIV infected adults and stratified by year was visualized by histograms and Kernel density curves.
+
+2) Sex (% female) overall and stratified by year and graphed by bar charts (absolute [\# of cases] and relative [% of cases]).
+
+3) Risk group (factor, 4 levels: HETERO, MSM/BISEX, PWID, PWID + MSM/BISEX) was analyzed by relative bar charts and stratified by year on a line graph over time (2009-2022).
+
+To investigate the second objective, binomial
+
+## Results
+
+### Age and sex distribution of HIV cases by year
+
+The overall majority of cases were men (87% [82 - 90]) and the median age at diagnosis was 38 (38 - 48). The median age of diagnosis by sex was comparable between male and female (37 [30 - 47] vs 41 [33 - 50], respectively) and was stable across the years. There was a change in age and sex at diagnosis in 2020 (male: 30.0 [24.5 - 42]; female: 52.0 [38 - 55]).
+
+In terms of age of risk groups, MSM tended to have a lower age at diagnosis compared to all other groups (33 [27 - 42] N = 470 vs. 43 [35 - 51] N = 511). MSM were also the most represented risk group among cases (47.9% of all cases) followed by HETERO (42.4%), PWID (9.2%), and PWID + MSM (0.5%).
+
+```{r}
+# Age
+paste("Mean =", round(mean(data$Age),2))
+paste("SD =", round(sd(data$Age),2))
+paste("Median =", median(data$Age))
+paste("Quantiles =", quantile(data$Age,probs = 0.25), "-", quantile(data$Age,probs = 0.75))
+
+data1 <- data %>% 
+  group_by(`Diagnosis year`) %>% 
+  summarise(median = median(Age),
+            lowerq = quantile(Age,probs = 0.25),
+            upperq = quantile(Age,probs = 0.75),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+data1
+```
+
+```{r}
+data %>% 
+  ggplot(aes(Age, group = `Diagnosis year`)) +
+  geom_histogram(aes(fill = factor(`Diagnosis year`)), alpha = 0.3) +
+  geom_vline(data = data %>% 
+               group_by(`Diagnosis year`) %>% 
+               summarise(Age = median(Age)), aes(xintercept = Age), alpha = 0.5, color = "red", linetype = "dashed") +
+  facet_wrap(vars(`Diagnosis year`), nrow = 2) +
+  theme_bar() +
+  theme(legend.position = "none")
+  
+```
+
+
+
+```{r}
+median(data1$median)
+paste("Quantiles =", quantile(data1$median,probs = 0.25), "-", quantile(data1$median,probs = 0.75))
+
+data1 %>% 
+  ggplot(aes(`Diagnosis year`,mean, label = n)) +
+  geom_errorbar(aes(ymin = lowerq, ymax = upperq), width = 0.1) +
+  geom_col(aes(fill = "X")) +
+  geom_text(position = position_dodge(0.9), size = 3, vjust = 2) +
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_fill_brewer(palette = "Set3", direction = -1) +
+  labs(y = "Age (median, quantiles)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = "none")
+```
+```{r}
+data1.2 <- data %>% 
+  group_by(`Diagnosis year`, Sex) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.2 %>% 
+  ggplot(aes(`Diagnosis year`, mean, fill = Sex, label = n)) +
+  geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) +
+  geom_col(position = position_dodge(width = 0.9)) +
+  geom_text(position = position_dodge(0.9), size = 3, vjust = 2) +
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Age (mean +/- SD)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = c(0.9,0.9),
+        legend.title = element_blank())
+
+```
+
+```{r}
+data1.3 <- data %>% 
+  group_by(`Risk Group`, `Diagnosis year`) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.3.2 <- data %>% 
+  group_by(`Risk Group`) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+
+data1.3.3 <- data %>% 
+  mutate(`Risk Group` = ifelse(`Risk Group` != "MSM/BISEX","Other", "MSM/BISEX")) %>% 
+  group_by(`Risk Group`) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)),
+            mean = round(mean(Age),2),
+            sd = round(sd(Age),2),
+            n = n())
+  
+data1.3 %>% 
+  ggplot(aes(`Diagnosis year`,mean,fill = `Risk Group`)) +
+  geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2, position = position_dodge(0.9)) +
+  geom_col(position = position_dodge(width = 0.9)) +
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Age (mean +/- SD)", x = "Year") +
+  theme_bar() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+
+```
+
+```{r}
+data1.4 <- data %>% 
+  group_by(Sex, Age, `Diagnosis year`) %>% 
+  summarise(n = n(),
+            median = median(Age))
+
+data1.4_meta <- data %>% 
+  group_by(`Diagnosis year`,Sex) %>% 
+  summarise(median = median(Age))
+
+data1.4 %>% 
+  ggplot(aes(Age, fill = Sex)) +
+  geom_density(alpha = 0.5) +
+  scale_x_continuous(n.breaks = 5) +
+  geom_vline(data = data1.4_meta, aes(xintercept = median, color = Sex), linetype = "dashed") +
+  scale_color_brewer(palette = "Pastel1", direction = -1) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  facet_wrap(vars(`Diagnosis year`), nrow = 1) +
+  labs(y = "Density of HIV diagnoses", x = "Age") +
+  theme_bar() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+```
+
+```{r}
+# Age - Sex
+
+data1.5 <- data %>% 
+  group_by(Sex) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)))
+
+data1.5.2 <- data %>% 
+  group_by(Sex, `Diagnosis year`) %>% 
+  summarise(median = median(Age),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)))
+```
+
+```{r}
+# Sex
+
+data1.6 <- data %>% 
+  count(`Diagnosis year`,Sex) %>% 
+  group_by(`Diagnosis year`) %>% 
+  mutate(Proportion = n/sum(n))
+
+data1.6 %>% 
+  filter(Sex == "Female") %>% 
+  ungroup() %>% 
+  summarise(mean = median(Proportion),
+            Quantiles = paste(quantile(Proportion,probs = 0.25), "-", quantile(Proportion,probs = 0.75)))
+
+data2 <- data %>% 
+  group_by(`Diagnosis year`) %>% 
+  summarise(n = n()) 
+
+data3 <- data %>% 
+  group_by(Sex, `Diagnosis year`) %>% 
+  summarise(n = n())
+```
+
+```{r}
+# HIV cases by year 
+
+a <- data2 %>% # Plot cases by year colored by risk group
+  ggplot(aes(`Diagnosis year`,n, label = n)) +
+  geom_col() +
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_y_continuous(limits = c(0,140)) +
+  scale_color_brewer(palette = "Set1") +
+  labs(y = "Number of HIV diagnoses", x = "Year") +
+  geom_text(size = 3, vjust = -1) +
+  theme_bar() +
+  theme(legend.position = "bottom")
+
+b <- data3 %>% # Plot cases by year colored by sex
+  ggplot(aes(`Diagnosis year`,n, label = n)) +
+  geom_col(aes(fill = Sex), position = position_fill()) +
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_fill_brewer(palette = "Pastel1", direction = -1) +
+  labs(y = "Proportion of HIV diagnoses", x = "Year") +
+  theme_bar() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+
+data3.2 <- data %>% 
+  group_by(`Risk Group`) %>% 
+  summarise(n = n()) %>% 
+  ungroup() %>% 
+  mutate(prop = n/sum(n))
+
+data3.3 <- data %>% 
+  group_by(`Risk Group`,`Diagnosis year`) %>% 
+  summarise(n = n()) %>% 
+  ungroup() %>% 
+  mutate(prop = n/sum(n))
+
+c <- data3.3 %>% # Plot cases by year colored by sex
+  ggplot(aes(`Diagnosis year`,n, color = `Risk Group`)) +
+  geom_line()+
+  scale_x_continuous(breaks = c(2009:2022)) +
+  scale_color_brewer(palette = "Dark2", direction = -1) +
+  labs(y = "Number of HIV cases", x = "Year") +
+  theme_bar() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank())
+c
+
+#tiff("HIV_cases.tiff", res = 600, units = "in", width = 7, height = 9, compression = "lzw")
+#ggarrange(a,b,c,d, align = "hv", nrow = 4, widths = 6)
+#dev.off()
+
+```
+
+### Risk of HIV-1-induced AIDS by risk group
+
+Of the 981 cases, 304 (30.9%) were diagnosed with AIDS, 216 (22.0%) were diagnosed in the early stages of HIV-1, and 461 (46.9%) were diagnosed during the asymptomatic phase of HIV-1 infection. The median age of AIDS, asymptomatic infections, and early-infection diagnoses were 43 (34-51), 37 (29-46), and 35 (27-43), respectively.
+
+PWID + MSM were removed as there were no reported cases of AIDS as the sample was largely under-powered to estimate the true prevalence. Interestingly, although MSM had the highest number of reported cases across each year relative to other groups, MSM had the lowest rate of AIDS diagnoses (22.1% of AIDS cases) compared to HETERO (38.2%) and PWID (45.6%). Comparatively, MSM groups had a significant 42% reduction in relative risk of AIDS diagnosis relative to the HETERO group (P \< 0.0001). PWID had a relatively comparable risk of AIDS to HETERO (RR = P = 0.316).
+
+```{r Plot cases by year}
+data %>% 
+  group_by(`State of Clinical Infection`, Sex) %>% 
+  summarise(median = median(Age),
+            n = n(),
+            Quantiles = paste(quantile(Age,probs = 0.25), "-", quantile(Age,probs = 0.75)))
+
+data4 <- data %>% 
+  filter(!str_detect(`Risk Group`, "PWID +")) %>% 
+  mutate(AIDS = ifelse(`State of Clinical Infection` == "AIDS", 1, 0))
+
+data4 %>% 
+  group_by(`Risk Group`) %>% 
+  summarise(n = n(),
+            `Proportion of AIDS cases` = sum(AIDS)/n)
+
+mod1 <- glm(AIDS ~ `Risk Group`, data4, family = poisson())
+output <- summary(mod1)
+output
+cbind(exp(output$coefficients[,1]),exp(confint(mod1)))
+# Overall number of person-years at risk over a 10 year period in a group of 1000 people:
+
+## ln(rate)/ln(person-time) = beta + beta1x1 + ...betaNxN
+## ln(rate)/ln(1000*10) = beta + beta1x1 + ...betaNxN
+
+R_MSM = output$coefficients[1,1] + output$coefficients[2,1]
+exp_R_MSM <- exp(R_MSM)
+Expected_MSM = exp_R_MSM * 10000
+paste("Overall number of MSM at risk of AIDS in 10000 person-years:", round(Expected_MSM,0))
+
+R_PWID = output$coefficients[1,1] + output$coefficients[3,1]
+exp_R_PWID <- exp(R_PWID)
+Expected_PWID = exp_R_PWID * 10000
+paste("Overall number of PWID at risk of AIDS in 10000 person-years:", round(Expected_PWID,0))
+```
+
+```{r}
+mod2 <- multinom(AIDS ~ `Risk Group` + `Diagnosis year`, data4)
+smod2 <- summary(mod2)
+smod2
+
+dfmod2 <- data.frame(smod2$coefficients) %>% 
+  rownames_to_column(var = "Group") %>% 
+  filter(Group != "(Intercept)")
+
+
+dfmod2 %>% 
+  ggplot(aes(Group, exp(smod2.coefficients))) +
+  geom_point() +
+  theme_bar()
+
+plot_model(mod2,ci.lvl = 0.99)
+```
+
+## Discussion
